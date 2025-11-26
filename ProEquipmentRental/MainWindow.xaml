@@ -154,7 +154,7 @@
 
             <!-- 💬 Сообщение, если избранных нет -->
             <TextBlock x:Name="MessageText"
-                       Text="Вы не добавили избранные магазины ☹️"
+                       
                        Foreground="Gray"
                        FontSize="18"
                        FontStyle="Italic"

@@ -10,7 +10,7 @@
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen"
         AllowsTransparency="True"
-        Background="Transparent">
+        Background="Transparent" Icon="/photo_5233404817273721103_y.jpg">
 
     <Window.Triggers>
         <EventTrigger RoutedEvent="Loaded">
