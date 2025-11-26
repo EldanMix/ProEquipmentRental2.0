@@ -309,7 +309,7 @@ namespace ProEquipmentRental
                 ShopList.ItemsSource = favTable.DefaultView; // Привязываем таблицу избранного.
                 _showingFavorites = true;
 
-                if (sender is Button b) b.Content = "Все магазины"; // Меняем текст кнопки.
+                if (sender is Button b) b.Content = "Избранное"; // Меняем текст кнопки.
 
                 // Показываем/скрываем сообщение, если список избранного пуст.
                 MessageText.Visibility = (favTable.Rows.Count == 0) ? Visibility.Visible : Visibility.Collapsed;
