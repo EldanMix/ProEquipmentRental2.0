@@ -17,7 +17,7 @@
             <BeginStoryboard>
                 <Storyboard>
                     <DoubleAnimation
-                        Storyboard.TargetName="PhoroProText"
+                        Storyboard.TargetName="PhotoProText"
                         Storyboard.TargetProperty="Opacity"
                         From="0.0" To="1.0" Duration="0:0:1.5">
                         <DoubleAnimation.EasingFunction>
